@@ -205,6 +205,12 @@
 .delete-button-all:hover {
   transform: scale(1.04);
 }
+.str-container .new-row:last-child div:last-child {
+  border-radius: 0px 0px 8px 0px;
+}
+.str-container .new-row:last-child div:first-child {
+  border-radius: 0px 0px 0px 8px;
+}
 
 @media (max-width: 767px) {
   #title-name {
